@@ -1,0 +1,21 @@
+body {
+  
+ /* background-image: url(./assets/bg-mobile.jpg);   /* Uma funcao e baixando a pasta de imagem*/ 
+  /*background-repeat: no-repeat;   /*nao repetir imagem*/ 
+  /*background-position: top center;*/
+  /*background-size: cover;   /*tela cheia*/
+  
+  /*transformar tudo num COd só*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top  /*não repetir a imagem e centralizar*/
+  center/cover;
+
+}
+#container { /*indentificando id la do HTML*/
+  width: 360px; /*largura*/
+  height: 700px;
+  border: 1px solid red;
+  margin-right: auto; /*alinha a direita*/
+  margin-left: auto; /*alinha no meio*/
+
+
+}    
